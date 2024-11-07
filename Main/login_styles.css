@@ -6,9 +6,17 @@
     box-sizing: border-box;
     font-family:Bona+Nova+SC, sans-serif ;
 }
+html, body {
+    width: 100vw; /* 100% da largura da viewport */
+    height: 100vh; /* 100% da altura da viewport */
+    overflow: hidden; /* Remove a barra de rolagem */
+}
 
 body {
-   min-height: 100vh;
+   height: 1024px;
+   width: 1440px;
+   top: 5748px;
+   left: -2486px;
    background-image: linear-gradient(to top ,#E63229 ,#FFA9A9);
 
 }
