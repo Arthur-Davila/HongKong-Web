@@ -7,9 +7,9 @@
     font-family:Bona+Nova+SC, sans-serif ;
 }
 html, body {
-    width: 100vw; /* 100% da largura da viewport */
-    height: 100vh; /* 100% da altura da viewport */
-    overflow: hidden; /* Remove a barra de rolagem */
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden; 
 }
 
 body {
@@ -21,17 +21,33 @@ body {
 
 }
 
+
 .header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.3rem 10%;
+    padding: 1.3rem 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
 }
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    top: 36px;
+    left: 109.32px;
+    margin-left: -10px;
+    margin-right: 1rem;
+}
+
 .header::before{
     content: '';
     position: absolute;
@@ -110,8 +126,8 @@ body {
 }
 
 .imagem {
-    width: 120%; 
-    margin-left: -400px; 
+    width: 107%; 
+    margin-left: -330px; 
     height: auto;
 }
 
