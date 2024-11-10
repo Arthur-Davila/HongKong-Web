@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" );
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Bona+Nova+SC, sans-serif ;
+    font-family:Poppins, sans-serif ;
 }
 html, body {
     width: 100vw; 
@@ -126,7 +125,7 @@ body {
 }
 
 .imagem {
-    width: 107%; 
+    width: 127%; 
     margin-left: -330px; 
     height: auto;
 }
@@ -144,7 +143,7 @@ body {
     margin-right: 150px;
     border-radius: 20px;
     display: flex;
-    justify-content:top; /* Centraliza horizontalmente */
+    justify-content:top; 
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
@@ -199,7 +198,7 @@ body {
 .lembre{
     display: flex;
     align-items: center;
-    gap:74px
+    gap:40px
 
 }
 .lembrar label{
@@ -234,6 +233,10 @@ body {
 }
 #esqueceu{
     color: #5A5A5A;
+    font-size: 15px;
+}
+#lembrar-senha{
+    font-size: 13px;
 }
 
 
