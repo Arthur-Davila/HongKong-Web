@@ -11,32 +11,76 @@
 </head>
 
 <body> 
-<!-- talvez precise fazer um css para diminuir o tamanho da pagina -->
-    <header class = "header">
-        <!-- <a href="#" class = "logo">Hong Kong</a> -->
-        <div class = "logo-container">
-            <img class="logo" src="Hong.svg" alt="">
-            <img class="logo" src="KONG.svg" alt="">  
+    <div class="conatiner-tela">
+        <header class = "header">
+        
+            <div class = "logo-container">
+                <img class="logo" src="Hong.svg" alt="">
+                <img class="logo" src="KONG.svg" alt="">  
+            </div>
+
+            
+            <input type="checkbox" id="check">
+            <label for="check" class ="icons" >
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="x-icon"></i>
+            </label>
+
+            <nav class="navbar">
+                <a href="#" style = "--i:0;">Cardápio</a>
+                <a href="#" style = "--i:1;">Contato</a>
+                <a href="#" style = "--i:2;">Sobre Nós</a>
+                
+            </nav>
+        </header>
+
+        
+
+        <div class="container-imagem">
+            <img src="yakissoba.png" alt="Imagem cortada na metade esquerda" class="imagem">
+            
         </div>
 
-        
-        <input type="checkbox" id="check">
-        <label for="check" class ="icons" >
-            <i class='bx bx-menu' id="menu-icon"></i>
-            <i class='bx bx-x' id="x-icon"></i>
-        </label>
+        <div class = "container-login">
+            <h2 class="Entrar">Entrar</h2>
 
-        <nav class="navbar">
-            <a href="#" style = "--i:0;">Cardápio</a>
-            <a href="#" style = "--i:1;">Contato</a>
-            <a href="#" style = "--i:2;">Sobre Nós</a>
+            <div class="container-email-senha">
+
+                <div class="email" >
+                    <label for="usuario">Email</label>
+                    <input type="text" id="usuario" placeholder="">
+                </div>
+    
+                <div class="senha" >
+                    <label for="usuario">Senha</label>
+                    <input type="password" id="usuario" placeholder="">
+                </div>
+
+            </div>
+
+
+            <div class="lembre">
+                <div class="lembrar">
+
+                    <input type="checkbox" id="lembre-me">
+                    <label >Lembrar Senha</label>
+
+                </div>
+
+                <a id="esqueceu" href="" >Esqueceu sua senha?</a>
+
+            </div>
+
+            <button id="button-entrar">Entrar</button>
+
+            <div class="linha-com-texto">
+                <span>ou</span>
+            </div>
             
-        </nav>
-    </header>
-
-    <div class="container-imagem">
-        <img src="yakissoba.png" alt="Imagem cortada na metade esquerda" class="imagem">
+            <button id="button-registrar-se">Registre-se</button>
+        </div>
         
+
     </div>
 
 </body>
