@@ -1,0 +1,31 @@
+#home{
+    display:flex;
+    margin-top: 3%;
+    min-height: calc(100vh - 70px);
+    justify-content: center;
+}
+#cta{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 35%;
+    gap: 48px;
+}
+#cta h1{
+    font-family: 'Paytone one', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #C12F28;
+    
+}
+#banner{    
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+#banner img{
+    height: 70%;
+    width: fit-content;
+    position: relative;
+    right: 20%;    
+}
