@@ -11,7 +11,7 @@
 </head>
 
 <body> 
-    <div class="conatiner-tela">
+    <div class="container-tela">
         <header class = "header">
         
             <div class = "logo-container">
@@ -34,12 +34,64 @@
             </nav>
         </header>
 
+        <div class="container-registro">
+            <h2 class="registre-se">Registre-se</h2>
+
+            <div class="registro">
+
+               <div class="nome-sobrenome">
+                 
+                   <div class="nome">
+                       <label for="usuario-nome">Nome</label>
+                       <input type="text" id="usuario-nome" placeholder="Nome">
+                   </div>
+
+                   <div class="sobrenome">
+                        <label for="usuario-sobrenome">Sobrenome</label>
+                        <input type="text" id="usuario-sobrenome" placeholder="Sobrenome">
+                   </div>
+
+               </div>
+
+               <div class="email-registro">
+                    <label for="usuario-email">Email</label>
+                    <input type="email" id="usuario-email" placeholder="email@email.com">
+               </div>
+
+               <div class="senha-confirmarsenha">
+
+                    <div class="senharegistro">
+                        <label for="usuario-senha">Senha</label>
+                        <input type="password" id="usuario-senha" placeholder="Senha">
+                    </div>
+
+                    <div class="senharegistro">
+                        <label for="usuario-confirmarsenha">Confirmar senha</label>
+                        <input type="password" id="usuario-confirmarsenha" placeholder="Confirmar senha">
+                    </div>
+
+               </div>
+
+               <div class="numero">
+                    <label for="usuario-numero">Numero</label>
+                    <input type="text" id="usuario-numero" placeholder="(00)00000-0000">
+               </div>
+
+               <button id="button-entrar">Finalizar</button>
+                
+               <div class="linha-com-texto">
+                <span>ou</span>
+               </div>
+
+               <input type="checkbox" id="clicar" hidden >
+               <label for="clicar" id="button-registrar-se">Registre-se</label>
+               
+            </div>
+        </div>
+
         
 
-        <div class="container-imagem">
-            <img src="yakissoba.png" alt="Imagem cortada na metade esquerda" class="imagem">
-            
-        </div>
+        
 
         <div class = "container-login">
             <h2 class="Entrar">Entrar</h2>
@@ -48,12 +100,12 @@
 
                 <div class="email" >
                     <label for="usuario">Email</label>
-                    <input type="text" id="usuario" placeholder="">
+                    <input type="text" id="usuario" placeholder="email@email.com">
                 </div>
     
                 <div class="senha" >
                     <label for="usuario">Senha</label>
-                    <input type="password" id="usuario" placeholder="">
+                    <input type="password" id="usuario" placeholder="senha">
                 </div>
 
             </div>
@@ -76,8 +128,9 @@
             <div class="linha-com-texto">
                 <span>ou</span>
             </div>
-            
-            <button id="button-registrar-se">Registre-se</button>
+
+            <input type="checkbox" id="registerToggle" hidden >
+            <label for="registerToggle" id="button-registrar-se">Registre-se</label>
         </div>
         
 
