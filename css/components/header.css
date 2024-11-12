@@ -10,6 +10,7 @@ header{
     justify-content: space-around;
 }
 #logo img{
+    cursor: pointer;
     margin-left: 5px;}
 #nav_list{
     display:flex;
