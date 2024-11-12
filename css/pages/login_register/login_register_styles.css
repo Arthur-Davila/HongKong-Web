@@ -8,7 +8,7 @@
 html, body {
     width: 100vw; 
     height: 100vh; 
-   overflow: visible;
+   overflow: hidden;
 }
 
 body {
@@ -123,7 +123,7 @@ body {
     width: 452px;
     min-height: 578px;
     top: 107px;
-    left: 69px;
+    left: 200px;
     position: absolute;
     gap: 40px;
     opacity: 1;
@@ -214,13 +214,13 @@ flex-direction: row;
     width: 430px;
     min-height: 530px;
     top: 130px;
-    left: 833px;
+    left: 888px;
     position: absolute;
     gap: 30px;
     opacity: 1;
     background-color: #FCFCFC;
     margin-left: 150px;
-    margin-right: 110px;
+    margin-right: px;
     border-radius: 20px;
     display: flex;
     justify-content:top; 
