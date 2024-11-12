@@ -8,6 +8,7 @@
 }
 body{
     background-color:#FFF3F3 ;
+    overflow-x: hidden;
 }
 section{
     padding: 48px 8%;
