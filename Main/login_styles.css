@@ -8,7 +8,7 @@
 html, body {
     width: 100vw; 
     height: 100vh; 
-    overflow: hidden; 
+   overflow: visible;
 }
 
 body {
@@ -118,6 +118,7 @@ body {
     width: 100%;
 }
 
+
 .container-registro{
     width: 452px;
     min-height: 578px;
@@ -136,6 +137,7 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     padding: 25px;
+    z-index: 0;
 }
 .registre-se{
     font-size: 36px; 
@@ -226,6 +228,7 @@ flex-direction: row;
     flex-direction: column;
     box-sizing: border-box;
     padding: 25px;
+    z-index: 2;;
 }
 .Entrar{
     font-size:36px;
