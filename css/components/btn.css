@@ -41,4 +41,16 @@
     background-color: #C12F28;
     padding: 8px 6%;
     border-radius:20px;
+
+}
+
+#order:hover{
+    background-color: #a82b25;
+    cursor: pointer;
+}
+
+#order:active{
+    
+    background-color: #8a221c;
+    cursor: pointer;
 }
