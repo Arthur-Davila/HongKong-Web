@@ -41,6 +41,8 @@
 }
 .dishes-all{
     background-color: white;
+
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
      gap: 20px;
@@ -49,7 +51,7 @@
      padding: 15px;
      border-radius: 10px;
      box-shadow: 3px 3px 5px rgb(141, 141, 141);
-   
+     
 }
 
 #dish_photo{
@@ -83,7 +85,7 @@
     width:40%;
     background-color:#C12F28 ;
     border-radius: 5px;
-
+    
 }
 .dishes-all button:hover{
     background-color: #a82a23;
