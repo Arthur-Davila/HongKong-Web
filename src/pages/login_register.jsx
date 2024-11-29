@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./App.css"; // Estilos globais
+import "../css/pages/login_register/login_register_styles.css"; // Estilos globais
 
 // Importando os ícones diretamente
-import HONG from "./icons/HONG.svg";
-import KONG from "./icons/KONG.svg";
-import yakisoba from "./icons/yakisoba.svg"
+import HONG from "../assets/icons/HONG.svg";
+import KONG from "../assets/icons/KONG.svg";
+import yakisoba from "../assets/icons/yakisoba.svg"
 
 const App = () => {
   const [showRegister, setShowRegister] = useState(false); // Alternar entre login e registro
@@ -36,7 +36,6 @@ const App = () => {
       </div>
 
 
-      {/* Conteúdo principal */}
       {showRegister ? (
         <RegisterForm setShowRegister={setShowRegister} />
       ) : (
@@ -46,7 +45,7 @@ const App = () => {
   );
 };
 
-// Componente de formulário de registro
+
 const RegisterForm = ({ setShowRegister }) => (
   <div className="container-registro">
     <h2 className="registre-se">Registre-se</h2>
@@ -96,7 +95,7 @@ const RegisterForm = ({ setShowRegister }) => (
   </div>
 );
 
-// Componente de formulário de login
+
 const LoginForm = ({ setShowRegister }) => (
   <div className="container-login">
     <h2 className="Entrar">Entrar</h2>
