@@ -34,12 +34,13 @@
    
 }
 #order{
+    text-align: center;
     text-decoration: none;
     color: white;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 28px;
     background-color: #C12F28;
-    padding: 8px 6%;
+    padding: 12px 8%;
     border-radius:20px;
 
 }

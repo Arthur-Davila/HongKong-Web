@@ -7,6 +7,13 @@ import './pages/home/home.css';// Importe o CSS que você usava
 import Yaksoba from './assets/img/plate_img/Yaksoba-removebg-preview.png'
 import YaksobaFundo from './assets/img/plate_img/Yaksoba_com_fundo.jpeg'
 import carne from './assets/img/plate_img/chopsuey_com_arroz.jpeg'
+import aparmegiana from './assets/img/plate_img/aparmegiana_com_macarrao.jpeg'
+import frango from './assets/img/plate_img/bolinho_de_frango_arroz_e_batata.jpeg'
+import yakFritas from './assets/img/plate_img/Chopsuey_com_batata.jpeg'
+import bifum from './assets/img/plate_img/Bifum _de_camarão.jpeg'
+import camarao from './assets/img/plate_img/Camarao_com_arroz.jpeg'
+import xadrez from './assets/img/plate_img/Frango_xadrez_com_arroz.jpeg'
+import empanado from './assets/img/plate_img/Bolinhos_de_frango_com_arroz.jpeg'
 function App() {
   return (
     <div>
@@ -45,13 +52,47 @@ function App() {
               cost="R$00,00"
             />
             <DishCard 
-              image="assets/img/plate_img/aparmegiana_com_macarrao.jpeg"
+              image={aparmegiana}
               name="Frango à parmegiana"
               cost="R$00,00"
             />
+            <DishCard 
+              image={frango}
+              name="Frango empanado com fritas"
+              cost="R$00,00"
+            />
+
+            <DishCard 
+              image={yakFritas}
+              name="Yakisoba com fritas"
+              cost="R$00,00"
+            />
+            <DishCard 
+              image={bifum}
+              name="Bifum"
+              cost="R$00,00"
+            />
+            <DishCard 
+              image={camarao}
+              name="Camarões ao molho de tomate"
+              cost="R$00,00"
+            />
+            <DishCard 
+              image={xadrez}
+              name="Frango xadrez"
+              cost="R$00,00"
+            />
+            <DishCard 
+              image={empanado}
+              name="Frango empanado"
+              cost="R$00,00"
+            />
+            
+            
             {/* Adicione mais DishCard conforme necessário */}
           </div>
         </section>
+
       </main>
     </div>
   );

@@ -1,5 +1,8 @@
 import React from 'react';
 import '../pages/home/menu.css'
+
+//*********image************** */
+import  carrinho from '../assets/icons/white cart.svg'
 function DishCard({ image, name, cost }) {
   return (
     <form className="dishes-all">
@@ -14,7 +17,7 @@ function DishCard({ image, name, cost }) {
       </div>
       <button type="submit">
         <a className="add" href="">
-          <img src="assets/icons/white cart.svg" alt="Adicionar ao carrinho" />
+          <img src={carrinho} alt="Adicionar ao carrinho" />
           ADICIONAR
         </a>
       </button>
