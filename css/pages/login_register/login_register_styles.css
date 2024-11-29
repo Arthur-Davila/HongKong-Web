@@ -12,17 +12,23 @@ html, body {
 }
 
 body {
-   height: 1024px;
-   width: 1440px;
+   height: 0px;
+   width: 1550px;
    top: 5748px;
    left: -2486px;
    background-image: linear-gradient(to top ,#E63229 ,#FFA9A9);
 
 }
+.container-tela {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Para evitar rolagens */
+}
 
 
 .header{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -30,7 +36,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    z-index: 10;
 }
 
 .logo-container {
@@ -122,13 +128,13 @@ body {
 .container-registro{
     width: 452px;
     min-height: 578px;
-    top: 107px;
-    left: 200px;
+    top: 90px;
+    left: 120px;
     position: absolute;
     gap: 40px;
     opacity: 1;
     background-color: #FCFCFC;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-right: 190px;
     border-radius: 20px;
     display: flex;
@@ -167,9 +173,11 @@ flex-direction: row;
     font-size: 16px;  
     border-radius: 10px;
     border-color: #A4A3A3;
+    background-color: #FCFCFC;
 }
 .nome-sobrenome label{
     color: #5A5A5A;
+    background-color: #FCFCFC;
 }
 .senharegistro input{
     width: 95%;
@@ -178,6 +186,7 @@ flex-direction: row;
     font-size: 16px;  
     border-radius: 10px;
     border-color: #A4A3A3;
+    background-color: #FCFCFC;
 }
 .senharegistro label{
     color: #5A5A5A;
@@ -189,6 +198,9 @@ flex-direction: row;
     height: 50px;
     gap:6px;
 }
+.email-registro label{
+  color:#5A5A5A;
+}
 .email-registro input{
     width: 97.3%;      
     height: 33px;     
@@ -196,6 +208,7 @@ flex-direction: row;
     font-size: 16px; 
     border-radius: 10px;
     border-color: #A4A3A3;
+    background-color: #FCFCFC;
 }
 .numero input {
     display: flex;
@@ -204,6 +217,7 @@ flex-direction: row;
     height: 35px;
     border-radius: 10px;
     gap:6px;
+    background-color: #FCFCFC;
 }
 .numero label{
     color: #5A5A5A;
@@ -214,7 +228,7 @@ flex-direction: row;
     width: 430px;
     min-height: 530px;
     top: 130px;
-    left: 888px;
+    left: 820px;
     position: absolute;
     gap: 30px;
     opacity: 1;
@@ -261,6 +275,7 @@ flex-direction: row;
     font-size: 16px;  
     border-radius: 10px;
     border-color: #A4A3A3;
+    background-color: #FCFCFC;
 }
 .email input{
     width: 100%;      
@@ -269,6 +284,7 @@ flex-direction: row;
     font-size: 16px; 
     border-radius: 10px;
     border-color: #A4A3A3;
+    background-color: #FCFCFC;
 }
 .senha label{
     color: #5A5A5A;
@@ -333,6 +349,29 @@ flex-direction: row;
     font-size: 13px;
     font-weight: Medium;
 }
+.imagem-div {
+  position: absolute;
+  top: 50%; /* Centraliza verticalmente */
+  transform: translateY(-50%); /* Compensa o deslocamento */
+  transition: transform 0.8s ease-in-out, left 0.8s ease-in-out;
+}
+
+.imagem-esquerda {
+  left: 5%; /* Posição quando a tela de login está visível */
+}
+
+.imagem-direita {
+  left: calc(95% - 600px); /* Posição quando a tela de registro está visível (ajuste se necessário) */
+}
+
+.imagem {
+  width: 1000px; /* Ajuste o tamanho da imagem */
+  height: 1200px;
+  position: relative;
+  left: -150px;
+  
+}
+
 
 
 .container-email-senha{

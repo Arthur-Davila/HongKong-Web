@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import "./App.css"; // Estilos globais
+import "../css/pages/login_register/login_register_styles.css"; // Estilos globais
 
 // Importando os ícones diretamente
 import HONG from "./icons/HONG.svg";
 import KONG from "./icons/KONG.svg";
 import yakisoba from "./icons/yakisoba.svg"
 
-const App = () => {
+const LoginRegister = () => {
   const [showRegister, setShowRegister] = useState(false); // Alternar entre login e registro
 
   return (
@@ -133,4 +133,4 @@ const LoginForm = ({ setShowRegister }) => (
   </div>
 );
 
-export default App;
+export default LoginRegister;

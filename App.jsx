@@ -1,0 +1,56 @@
+import React from 'react';
+import Header from './components/Header';
+import DishCard from './components/DishCard';
+import './App.css'; // Importe o CSS que você usava
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <main id="content">
+        <section id="home">
+          <div id="cta">
+            <h1>Yakisoba? É a nossa especialidade! Experimente o nosso prato mais pedido!</h1>
+            <div id="cta_btn">
+              <a href="#" id="order">Peça agora</a>
+            </div>
+          </div>
+          <div id="banner">
+            <div className="shape" id="rect1"></div>
+            <div className="shape" id="rect2"></div>
+            <div className="shape" id="rect3"></div>
+            <img src="assets/img/plate_img/Yaksoba-removebg-preview.png" alt="" />
+          </div>
+        </section>
+
+        <section id="menu">
+          <div id="line">
+            <div id="l1"></div>
+            <h1>CARDÁPIO</h1>
+            <div id="l2"></div>
+          </div>
+          <div id="dishes">
+            <DishCard 
+              image="assets/img/plate_img/Yaksoba_com_fundo.jpeg"
+              name="Yakisoba tradicional"
+              cost="R$00,00"
+            />
+            <DishCard 
+              image="assets/img/plate_img/chopsuey_com_arroz.jpeg"
+              name="Carne acebolada e risoto"
+              cost="R$00,00"
+            />
+            <DishCard 
+              image="assets/img/plate_img/aparmegiana_com_macarrao.jpeg"
+              name="Frango à parmegiana"
+              cost="R$00,00"
+            />
+            {/* Adicione mais DishCard conforme necessário */}
+          </div>
+        </section>
+      </main>
+    </div>
+  );
+}
+
+export default App;
