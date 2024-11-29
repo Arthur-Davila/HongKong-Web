@@ -1,7 +1,11 @@
 header{
     width:100%;  
+    position: fixed;
+    top: 0;
+    left: 0;
     padding: 28px 3%;
     background-color: #C12F28;
+    z-index: 1000;
 }
 #nav_bar{
     width: 100%;
