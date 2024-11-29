@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../pages/home/menu.css'
 function DishCard({ image, name, cost }) {
   return (
     <form className="dishes-all">

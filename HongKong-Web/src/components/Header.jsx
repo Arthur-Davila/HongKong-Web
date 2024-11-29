@@ -1,12 +1,16 @@
 import React from 'react';
-
+import './header.css'
+import './btn.css'
+import Hong from '../assets/icons/HONG.svg'
+import Kong from '../assets/icons/KONG.svg'
+import redCart from '../assets/icons/red cart.svg'
 function Header() {
   return (
     <header>
       <nav id="nav_bar">
         <div id="logo">
-          <img src="assets/icons/HONG.svg" alt="Hong" />
-          <img src="assets/icons/KONG.svg" alt="Kong" />
+          <img src={Hong} alt="Hong" />
+          <img src={Kong} alt="Kong" />
         </div>
         <ul id="nav_list">
           <li className="nav-items">
@@ -22,7 +26,7 @@ function Header() {
         <div id="shortcuts">
           <button id="cart">
             <a href="#">
-              <img src="assets/icons/red cart.svg" alt="Carrinho" />
+              <img src={redCart} alt="Carrinho" />
             </a>
           </button>
           <a href="pages/login_register.html">
