@@ -1,4 +1,3 @@
-
 .linha-com-texto {
     display: flex;
     align-items: center;  
@@ -15,7 +14,7 @@
     padding: 0 10px;      
     font-weight: bold;    
     color: #c12f28;           
-    background-color: #ffffff; 
+    background-color: #FFF3F3; 
     font-size: 34px;
 }
 
@@ -26,29 +25,29 @@
 }
 
 .quadrado {
-    position: absolute;    
+    position: relative;    
     height: 358px;           
     width: 347px;          
     background-color: #c12f28;
-    top: 15%;               
-    left: 27%;              
+    top: 130px;               
+    left: 380px;              
     
     border-radius: 15px;    
 }
 
 .quadradoc {
-    position: absolute;     
+    position: relative;     
     width: 360px;           
     height: 360px;          
     background-color: #ABABAB;  
-    top: 7%;              
-    left: 21.9%;         
-    border-radius: 15px;     /
+    top: -310px;              
+    left: 292.9px;         
+    border-radius: 15px;
 }
 
 .texto {
-    position: absolute;    
-    top: 9.5%;              
+    position: relative;    
+    top: -635.5px;              
     left: 60%;         
     transform: translate(0%, 0%); 
     color: #c12f28;          
@@ -58,9 +57,17 @@
     white-space: normal;        
 }
 
+footer{
+    position: absolute;
+    bottom: 0;        /* Coloca o rodapé no fundo da página */
+    width: 100%;      /* Garante que o rodapé ocupe toda a largura da tela */
+    height: 100vh;
+
+}
+
 .retangulo {
     position: absolute;   
-    bottom: 0;             
+    bottom: -2950px;             
     left: 0;               
     width: 100%;        
     height: 35%;         
@@ -69,7 +76,7 @@
 
 .retangulop {
     position: absolute;    
-    bottom: 0;             
+    bottom: -2950px;             
     left: 0;              
     width: 100%;          
     height: 50px;          
@@ -78,49 +85,43 @@
 
 .imagemlogo {
     position: absolute; 
-    top: 61.05%; 
+    bottom: -2889.8px; 
 }
 
 .imagemgroup {
     position: absolute; 
-    top: 76.51%; 
-    left: 23.4%; 
+    bottom: -2788px; 
+    left: 361.4px; 
 }
 
 .imagemrectangle {
     position: absolute; 
-    top: 72.5%; 
-    right: 80.9%;
+    bottom: -2863.5px; 
+    right: 1214px;
 }
 
 .imagemvector {
     position: absolute;
-    top: 71.6%; 
-    left: 23.4%;
+    bottom: -2742.6px; 
+    left: 360.5px;
 }
 
 .imagemvector1 {
     position: absolute; 
-    top: 81.25%; 
-    left: 23.24%; 
+    bottom: -2836.25px; 
+    left: 357px; 
 }
 
 .imagemvector2 {
     position: absolute; 
-    top: 85.94%; 
-    left: 23.03%;
-}
-
-.imagemvector3 {
-    position: absolute; 
-    top: 20px;  
-    left: -26px; 
+    bottom: -2866.94px; 
+    left: 354.25px;
 }
 
 .texto1 {
     position: absolute;    
-    top: 71.641%;              
-    left: 25.01%;             
+    bottom: -2742.8px;              
+    left: 395px;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
     font-size: 14px;       
@@ -132,8 +133,8 @@
 
 .texto2 {
     position: absolute;    
-    top: 76.526%;              
-    left: 25.01%;             
+    bottom: -2787.8px;              
+    left: 395px;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
     font-size: 14px;       
@@ -145,8 +146,8 @@
 
 .texto3 {
     position: absolute;    
-    top: 81.39%;              
-    left: 25.01%;             
+    bottom:-2833px;              
+    left: 395px;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
     font-size: 14px;       
@@ -158,8 +159,8 @@
 
 .texto4 {
     position: absolute;    
-    top: 85.24%;              
-    left: 25.01%;             
+    bottom: -2871.64px;              
+    left: 395px;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
     font-size: 14px;       
@@ -171,14 +172,14 @@
 
 .imagemrectangle1 {
     position: absolute; 
-    top: 72.5%;  
-    right: 58.4%; 
+    bottom: -2863.5px;  
+    right: 868.4px; 
 }
 
 .texto5 {
     position: absolute;    
-    top: 71.641%;              
-    left:47.63%;             
+    bottom: -2765.8px;              
+    left: 720.63px;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
     font-size: 14px;       
@@ -190,8 +191,8 @@
 
 .texto6 {
     position: absolute;
-    top: 77.641%;              
-    left: 47.63%;             
+    bottom: -2802.641px;              
+    left: 720.63px;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
     font-size: 14px;       
@@ -203,8 +204,8 @@
 
 .texto7 {
     position: absolute;
-    top: 81.991%;              
-    left: 47.63%;             
+    bottom: -2841.991px;              
+    left: 720.63px;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
     font-size: 14px;       
@@ -216,14 +217,14 @@
 
 .imagemrectangle2 {
     position: absolute; 
-    top: 72.5%;  
-    right: 26% 
+    bottom: -2863.5px;  
+    right: 370px; 
 }
 
 .texto8 {
     position: absolute;    
-    top: 71.641%;              
-    left: 79.62%;             
+    bottom: -2743px;              
+    left: 1204.62px;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
     font-size: 14px;       
@@ -235,8 +236,8 @@
 
 .texto9 {
     position: absolute;    
-    top: 74.841%;              
-    left: 79.62%;             
+    bottom: -2779px;              
+    left: 1204.62px;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
     font-size: 14px;       
@@ -248,8 +249,8 @@
 
 .texto10 {
     position: absolute;    
-    top: 78.001%;              
-    left: 79.62%;             
+    bottom: -2815px;              
+    left: 1204.62px;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
     font-size: 14px;       
@@ -261,8 +262,8 @@
 
 .texto11 {
     position: absolute;    
-    top: 81.001%;              
-    left: 79.62%;             
+    bottom: -2851px;              
+    left: 1204.62px;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
     font-size: 14px;       
@@ -273,14 +274,14 @@
 }
 
 .imagemvetor3 {
-    position: absolute; 
-    top: 96.605%;  
-    right: 57.2001%; 
+    position: relative; 
+    top: -887.1px;  
+    right: -630.3px; 
 }
 
 .texto12 {
-    position: absolute;    
-    top: 96.26%;              
+    position: relative;    
+    top: -911.1px;              
     left: 43.19%;             
     transform: translate(0%, 0%); 
     color: #ffffff;          
@@ -291,8 +292,3 @@
     font-family: 'Poppins', sans-serif; 
 }
 
-.imagemAfoto {
-    position: absolute; 
-    top: 16%;  
-    right: 62.55%; 
-}
