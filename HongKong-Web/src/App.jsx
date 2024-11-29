@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import DishCard from './components/DishCard';
+import Sobrenos from './components/Sobrenos'
 import './pages/home/home.css';// Importe o CSS que você usava
 
 //*****************importar as imagens***********************
@@ -92,7 +93,7 @@ function App() {
             {/* Adicione mais DishCard conforme necessário */}
           </div>
         </section>
-
+        <Sobrenos/>
       </main>
     </div>
   );
