@@ -5,22 +5,31 @@ header{
     left: 0;
     padding: 28px 3%;
     background-color: #C12F28;
-    z-index: 1000;
+    z-index: 100;
 }
 #nav_bar{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 #logo img{
     cursor: pointer;
-    margin-left: 5px;}
+    margin-left: 5px;
+    position: relative;
+}
 #nav_list{
     display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
     list-style: none;
-    gap:48px;
+
 }
+.nav-items{
+margin: 0 10px;
+}
+
 
 .nav-items a::after{
     position: absolute;
@@ -39,11 +48,11 @@ header{
     transform: scale(1);
     }
 .nav-items a{   
-    position: relative;
     text-decoration: none;
     color: #FFFFFF;
     font-weight:700;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 #search{
     
@@ -55,15 +64,7 @@ header{
     width: 180px;
    
 }
-#search-bar{
-    display: flex;
-    background-color:#FFFCFC;
-    width: 280px;
-    height: 47px;
-    border-radius:20px;
-    align-items: center;
-    justify-content: space-around;
-}
+
 #shortcuts{
     margin-left: 0px;
     display: flex;

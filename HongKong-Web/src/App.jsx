@@ -93,7 +93,8 @@ function App() {
             {/* Adicione mais DishCard conforme necessário */}
           </div>
         </section>
-        <Sobrenos/>
+        <section id='about'></section>
+          <Sobrenos/>
       </main>
     </div>
   );
