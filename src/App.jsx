@@ -4,7 +4,6 @@ import DishCard from './components/DishCard';
 import Sobrenos from './components/Sobrenos'
 import './pages/home/home.css';// Importe o CSS que você usava
 
-
 //*****************importar as imagens***********************
 import Yaksoba from './assets/img/plate_img/Yaksoba-removebg-preview.png'
 import YaksobaFundo from './assets/img/plate_img/Yaksoba_com_fundo.jpeg'
@@ -17,7 +16,7 @@ import camarao from './assets/img/plate_img/Camarao_com_arroz.jpeg'
 import xadrez from './assets/img/plate_img/Frango_xadrez_com_arroz.jpeg'
 import empanado from './assets/img/plate_img/Bolinhos_de_frango_com_arroz.jpeg'
 function App() {
-  cons
+
   return (
     <div>
       <Header />
